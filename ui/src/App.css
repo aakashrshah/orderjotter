@@ -1,0 +1,22 @@
+:root {
+  --main-bg-color: rgb(248, 249, 251);
+}
+
+body {
+  background: var(--main-bg-color);
+}
+
+.content {
+  padding: 25px 25px 25px 25px;
+}
+
+.future-div {
+  height: 100%;
+  width: 100%;
+  background: lightblue;
+  text-align: center;
+}
+
+.done-checkmark {
+  color: rgb(0, 194, 33);
+}
