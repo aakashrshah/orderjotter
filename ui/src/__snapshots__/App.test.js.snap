@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should match a snapshot 1`] = `
+<Fragment>
+  <WithStyles(ForwardRef(AppBar))
+    position="static"
+  >
+    <WithStyles(ForwardRef(Toolbar))>
+      <WithStyles(ForwardRef(Button))
+        color="inherit"
+        component={[Function]}
+        to="/"
+      >
+        <WithStyles(ForwardRef(Typography))
+          color="inherit"
+          style={
+            Object {
+              "textTransform": "none",
+            }
+          }
+          variant="h6"
+        >
+          Order Jotter
+        </WithStyles(ForwardRef(Typography))>
+      </WithStyles(ForwardRef(Button))>
+    </WithStyles(ForwardRef(Toolbar))>
+  </WithStyles(ForwardRef(AppBar))>
+  <div
+    className="content"
+  >
+    <Route
+      component={[Function]}
+      exact={true}
+      path="/"
+    />
+    <Route
+      component={[Function]}
+      exact={true}
+      path="/signup"
+    />
+    <Route
+      component={[Function]}
+      exact={true}
+      path="/home"
+    />
+    <Route
+      component={[Function]}
+      exact={true}
+      path="/interests"
+    />
+    <Route
+      component={[Function]}
+      exact={true}
+      path="/pricing"
+    />
+    <Route
+      component={[Function]}
+      exact={true}
+      path="/explore"
+    />
+    <Route
+      component={[Function]}
+      exact={true}
+      path="/forgotpassword"
+    />
+  </div>
+</Fragment>
+`;

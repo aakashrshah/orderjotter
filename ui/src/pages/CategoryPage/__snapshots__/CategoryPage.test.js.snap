@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CategoryPage should match a snapshot 1`] = `
+<WithStyles(ForwardRef(Grid))
+  container={true}
+  spacing={1}
+>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    direction="row"
+    spacing={1}
+  />
+</WithStyles(ForwardRef(Grid))>
+`;

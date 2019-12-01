@@ -1,0 +1,89 @@
+{
+  "name": "ui",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.3.3",
+    "@material-ui/icons": "^3.0.2",
+    "clsx": "^1.0.4",
+    "core-js": "^2.6.5",
+    "cross-fetch": "^3.0.1",
+    "fuse.js": "^3.4.2",
+    "lodash": "^4.17.15",
+    "npm": "^6.13.1",
+    "papaparse": "^4.6.3",
+    "prop-types": "^15.7.2",
+    "react": "^16.9.0",
+    "react-app-polyfill": "^0.2.1",
+    "react-dom": "^16.9.0",
+    "react-notification-system-redux": "^2.0.0",
+    "react-router": "^5.0.1",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "2.1.5",
+    "recharts": "^1.7.1",
+    "reduce-reducers": "^0.4.3"
+  },
+  "proxy": "http://localhost:5000",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "test:coverage": "react-scripts test --coverage",
+    "eject": "react-scripts eject",
+    "lint": "eslint ./src",
+    "lint:report": "eslint ./src -o ./quality/quality.html -f html",
+    "lint:fix": "eslint --fix ./src"
+  },
+  "jest": {
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 50,
+        "functions": 50,
+        "lines": 50,
+        "statements": 50
+      },
+      "./src/components/": {
+        "branches": 80,
+        "functions": 80,
+        "lines": 80,
+        "statements": 80
+      },
+      "./src/App.js": {
+        "branches": 80,
+        "functions": 80,
+        "lines": 80,
+        "statements": 80
+      },
+      "./src/*.js": {
+        "branches": 0,
+        "functions": 0,
+        "lines": 0,
+        "statements": 0
+      }
+    }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "IE 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "enzyme-to-json": "^3.3.5",
+    "eslint": "5.12.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4",
+    "fetch-mock": "^7.3.0",
+    "react-redux": "^6.0.1",
+    "redux": "^4.0.1",
+    "redux-mock-store": "^1.5.3",
+    "redux-thunk": "^2.3.0"
+  }
+}
