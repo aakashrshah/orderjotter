@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/orderjotter/precache-manifest.fa93223263b21fb73d17307721405a27.js"
+  "/orderjotter/precache-manifest.33f56db059c734d4de645db01219ccb1.js"
 );
 
 workbox.clientsClaim();
